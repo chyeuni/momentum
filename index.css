@@ -1,16 +1,26 @@
 body {
   background-color: #2c3e50;
+  height: 100%;
+  width: 100%;
 }
 
 .time-style {
-  font-size: 8vmax;
   color: white;
-  position: absolute;
   text-align: center;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
+  font-size: 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  margin: 0;
+}
+
+h4 {
+  margin: 0;
 }
 
 .input-style {
@@ -31,10 +41,36 @@ input:focus {
   outline: none;
 }
 
+.js-toDoList {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 2px;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+.js-weather {
+  color: white;
+  padding: 5px;
+}
 .greeting-style {
   text-align: center;
   font-size: 30px;
   color: white;
+  margin: 10px;
 }
 
 .form-style {
